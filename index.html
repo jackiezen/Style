@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Style | Jacquelyn Zen</title>
+	<link rel="stylesheet" href="css.css">
+	<link rel="icon" type="image/ico" href="images/favicon.ico" />
+</head>
+
+<body>
+	<audio id="audio" autoplay loop>
+		<source src="Style(audio).mp3" type="audio/mpeg">
+	</audio>
+
+	<a href="#noscroll" id="mute">
+		<input type="image" src="images/play.png" class="play" onclick="toggle(this);" />
+	</a>
+
+</body>
+<script>
+	var audio = document.getElementById('audio');
+
+	document.getElementById('mute').addEventListener('click', function (e) {
+		e = e || window.event;
+		audio.muted = !audio.muted;
+		e.preventDefault();
+	}, false);
+</script>
+
+
+<script>
+	function toggle(el) {
+		if (el.className != "stop") {
+			el.src = 'images/stop.png';
+			el.className = "stop";
+		} else if (el.className == "stop") {
+			el.src = 'images/play.png';
+			el.className = "play";
+		}
+
+		return false;
+	}
+</script>
+
+</html>
