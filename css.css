@@ -7,5 +7,5 @@ html {
 }
 
 .play:focus {
-  outline: none;
+  border: none;
 }
