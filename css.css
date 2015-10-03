@@ -5,3 +5,7 @@ html {
 	-o-background-size: 60%, cover;
 	background-size: 60%, cover;
 }
+
+img:focus {
+  outline: none;
+}
