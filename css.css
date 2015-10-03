@@ -6,6 +6,6 @@ html {
 	background-size: 60%, cover;
 }
 
-img:focus {
+.play:focus {
   outline: none;
 }
