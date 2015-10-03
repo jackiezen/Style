@@ -6,6 +6,6 @@ html {
 	background-size: 60%, cover;
 }
 
-.play:focus {
+img {
   border: none;
 }
