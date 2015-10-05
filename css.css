@@ -1,4 +1,4 @@
-html {
+body {
 	background: url(images/Style.gif) no-repeat center center fixed, url(images/StyleTS.gif) no-repeat center center fixed;
 	-webkit-background-size: 60%, cover;
 	-moz-background-size: 60%, cover;
